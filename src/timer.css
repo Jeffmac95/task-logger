@@ -1,0 +1,65 @@
+#timer-container {
+    height: 30vh;
+    width: 25vw;
+    border: 1px solid #000000;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+    background-color: #007EA7;
+}
+
+.timer-title {
+    text-decoration: underline;
+}
+
+#activity-input {
+    padding: 0;
+    margin: auto;
+    background-color: #CCDBDC;
+}
+
+#timer-button-container {
+    padding: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.timer-buttons {
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #c0c0c0;
+}
+
+.timer-buttons:hover {
+    box-shadow: inset 0 0 0 2px #000000;
+}
+
+.start-button {
+    background-color: #1bc900;
+}
+
+.reset-button {
+    background-color: #ff2121;
+}
+
+.pause-button {
+    background-color: #ffea00;
+}
+
+.post-button {
+    background-color: #ff00fb;
+}
+
+.success-msg {
+    background-color: #00ff00;
+    text-align: center;
+    font-weight: bold;
+}
+
+.error-msg {
+    background-color: #ff0000;
+    text-align: center;
+    font-weight: bold;
+}

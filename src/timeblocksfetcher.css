@@ -1,0 +1,89 @@
+#data-container {
+    height: 40vh;
+    width: 75vw;
+    border: 1px solid #000000;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+    background-color: #80CED7;
+    overflow-y: auto;
+}
+
+.timeblockfetcher-title {
+    text-decoration: underline;
+}
+
+.timeblock-buttons {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #003249;
+    color: #CCDBDC;
+}
+
+.timeblock-buttons:hover {
+    box-shadow: inset 0 0 0 2px #000000;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+#data-table {
+    display: flex;
+    justify-content: center;
+}
+
+#data-table table {
+    padding: 0.5rem;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    background-color: #9AD1D4;
+}
+
+#data-table th, #data-table td {
+    border: 1px solid #000000;
+    padding: 0.5rem;
+}
+
+#get-activity-input {
+    background-color: #CCDBDC;
+}
+
+#data-table .delete-by-id {
+    color: #ff0000;
+}
+
+#data-table .delete-by-id:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#data-table .edit-by-id:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.error-msg {
+    background-color: #ff0000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.confirm-delete-button {
+    background-color: #ff0000;
+}
+
+.update-activity-button {
+    background-color: #3b82f6;
+}
+
+.edit-by-id {
+    color: #ffff00;
+}

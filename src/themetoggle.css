@@ -1,0 +1,15 @@
+#toggle-theme-container, #nav-bar {
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#toggle-theme-button {
+    margin: 3px;
+    font-weight: bold;
+}
+
+#toggle-theme-button:hover {
+    cursor: pointer;
+}
