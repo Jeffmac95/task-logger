@@ -5,7 +5,8 @@
     padding: 1rem;
     margin: auto;
     text-align: center;
-    background-color: #007EA7;
+    background-color: var(--primary);
+    color: var(--text);
 }
 
 .timer-title {
@@ -15,7 +16,6 @@
 #activity-input {
     padding: 0;
     margin: auto;
-    background-color: #CCDBDC;
 }
 
 #timer-button-container {
@@ -29,7 +29,6 @@
     padding: 0.5rem;
     cursor: pointer;
     font-weight: bold;
-    background-color: #c0c0c0;
 }
 
 .timer-buttons:hover {
@@ -53,13 +52,13 @@
 }
 
 .success-msg {
-    background-color: #00ff00;
+    background-color: var(--secondary);
     text-align: center;
     font-weight: bold;
 }
 
 .error-msg {
-    background-color: #ff0000;
+    background-color: var(--tertiary);
     text-align: center;
     font-weight: bold;
 }

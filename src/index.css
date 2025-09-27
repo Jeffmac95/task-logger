@@ -23,3 +23,17 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
+:root {
+    --primary: #4481bb;
+    --secondary: #81bb44;
+    --tertiary: #bb4481;
+    --text: #000000;
+}
+
+[data-theme="dark-theme"] {
+    --primary: #002739;
+    --secondary: #273900;
+    --tertiary: #390027;
+    --text: #ffffff;
+}

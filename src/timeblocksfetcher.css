@@ -5,7 +5,8 @@
     padding: 1rem;
     margin: auto;
     text-align: center;
-    background-color: #80CED7;
+    background-color: var(--primary);
+    color: var(--text);
     overflow-y: auto;
 }
 
@@ -19,7 +20,7 @@
     margin-right: 0.5rem;
     cursor: pointer;
     font-weight: bold;
-    background-color: #003249;
+    background-color: var(--tertiary);
     color: #CCDBDC;
 }
 
@@ -44,7 +45,7 @@ caption {
     text-align: center;
     border: 2px solid #000000;
     border-collapse: collapse;
-    background-color: #9AD1D4;
+    background-color: var(--secondary);
 }
 
 #data-table th, #data-table td {
@@ -52,12 +53,8 @@ caption {
     padding: 0.5rem;
 }
 
-#get-activity-input {
-    background-color: #CCDBDC;
-}
-
 #data-table .delete-by-id {
-    color: #ff0000;
+    color: var(--tertiary);
 }
 
 #data-table .delete-by-id:hover {
@@ -71,19 +68,19 @@ caption {
 }
 
 .error-msg {
-    background-color: #ff0000;
+    background-color: var(--tertiary);
     text-align: center;
     font-weight: bold;
 }
 
 .confirm-delete-button {
-    background-color: #ff0000;
+    background-color: var(--tertiary);
 }
 
 .update-activity-button {
-    background-color: #3b82f6;
+    background-color: var(--tertiary);
 }
 
 .edit-by-id {
-    color: #ffff00;
+    color: var(--tertiary);
 }
