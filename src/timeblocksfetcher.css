@@ -68,6 +68,8 @@ caption {
 }
 
 .error-msg {
+    height: 25vh;
+    width: auto;
     background-color: var(--tertiary);
     text-align: center;
     font-weight: bold;
