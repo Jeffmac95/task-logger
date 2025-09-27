@@ -1,11 +1,13 @@
-nav {
+.nav-bar {
     height: 5vh;
     width: 100vw;
     display: flex;
     justify-content: flex-end;
     padding: 3px;
+    background-color: var(--primary);
+    border: 1px solid var(--tertiary);
 }
 
-nav > button {
+.toggle-theme-btn {
     cursor: pointer;
 }

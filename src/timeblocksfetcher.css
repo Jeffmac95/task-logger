@@ -1,7 +1,7 @@
 #data-container {
     height: 40vh;
     width: 75vw;
-    border: 1px solid #000000;
+    border: 1px solid var(--tertiary);
     padding: 1rem;
     margin: auto;
     text-align: center;
@@ -14,6 +14,10 @@
     text-decoration: underline;
 }
 
+#get-activity-input:focus, #get-activity-input:hover {
+    box-shadow: 0 0 0 2px var(--tertiary);
+}
+
 .timeblock-buttons {
     padding: 0.5rem;
     margin-left: 0.5rem;
@@ -22,10 +26,6 @@
     font-weight: bold;
     background-color: var(--tertiary);
     color: #CCDBDC;
-}
-
-.timeblock-buttons:hover {
-    box-shadow: inset 0 0 0 2px #000000;
 }
 
 caption {

@@ -7,8 +7,8 @@ function Navbar() {
     return (
         <>
         <header>
-            <nav>
-                <button onClick={() => {
+            <nav className="nav-bar">
+                <button className="toggle-theme-btn" onClick={() => {
                     setIsThemeToggled((prevState) => {
                         const newState = !prevState;
                         if (newState) {

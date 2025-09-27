@@ -1,7 +1,7 @@
 #timer-container {
     height: 30vh;
     width: 25vw;
-    border: 1px solid #000000;
+    border: 1px solid var(--tertiary);
     padding: 1rem;
     margin: auto;
     text-align: center;
@@ -16,6 +16,10 @@
 #activity-input {
     padding: 0;
     margin: auto;
+}
+
+#activity-input:focus, #activity-input:hover {
+    box-shadow: 0 0 0 2px var(--tertiary);
 }
 
 #timer-button-container {
