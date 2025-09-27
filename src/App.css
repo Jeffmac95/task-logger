@@ -3,6 +3,8 @@
     width: 100vw;
     font-weight: bold;
     font-size: 3rem;
+    text-decoration: underline;
     text-align: center;
+    color: var(--tertiary);
     text-shadow: 0 0 5px #3da47a, 0 0 10px #3da47a, 0 0 20px #3da47a, 0 0 40px #337f5b;
 }
