@@ -1,7 +1,7 @@
 #data-container {
     height: 40vh;
     width: 75vw;
-    border: 1px solid var(--tertiary);
+    border: 1px solid var(--secondary);
     padding: 1rem;
     margin: auto;
     text-align: center;
@@ -25,7 +25,11 @@
     cursor: pointer;
     font-weight: bold;
     background-color: var(--tertiary);
-    color: #CCDBDC;
+}
+
+.timeblock-buttons:hover {
+    transition: all 0.3s ease-in;
+    box-shadow: inset 0 0 0 3px var(--secondary);
 }
 
 caption {
@@ -43,13 +47,17 @@ caption {
     padding: 0.5rem;
     margin: auto;
     text-align: center;
-    border: 2px solid #000000;
+    border: 2px solid var(--secondary);
     border-collapse: collapse;
+    background-color: var(--primary);
+}
+
+th {
     background-color: var(--secondary);
 }
 
 #data-table th, #data-table td {
-    border: 1px solid #000000;
+    border: 1px solid var(--secondary);
     padding: 0.5rem;
 }
 
@@ -68,9 +76,15 @@ caption {
 }
 
 .error-msg {
-    height: 25vh;
+    height: 15vh;
     width: auto;
-    background-color: var(--tertiary);
+    background-color: #ff0000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.success-msg {
+    background-color: var(--secondary);
     text-align: center;
     font-weight: bold;
 }

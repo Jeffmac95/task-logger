@@ -1,7 +1,7 @@
 #timer-container {
     height: 30vh;
     width: 25vw;
-    border: 1px solid var(--tertiary);
+    border: 1px solid var(--secondary);
     padding: 1rem;
     margin: auto;
     text-align: center;
@@ -30,29 +30,23 @@
 }
 
 .timer-buttons {
+    background-color: var(--secondary);
     padding: 0.5rem;
     cursor: pointer;
     font-weight: bold;
 }
 
+.start-button, .post-button {
+    background-color: var(--tertiary);
+}
+
 .timer-buttons:hover {
-    box-shadow: inset 0 0 0 2px #000000;
+    transition: all 0.3s ease-in;
+    box-shadow: inset 0 0 0 3px var(--tertiary);
 }
 
-.start-button {
-    background-color: #1bc900;
-}
-
-.reset-button {
-    background-color: #ff2121;
-}
-
-.pause-button {
-    background-color: #ffea00;
-}
-
-.post-button {
-    background-color: #ff00fb;
+.start-button:hover, .post-button:hover {
+    box-shadow: inset 0 0 0 3px var(--secondary);
 }
 
 .success-msg {
